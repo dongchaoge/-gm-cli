@@ -8,7 +8,7 @@ const session = require('express-session');
 const RedisStore = require('connect-redis')(session);
 const compression = require('compression');
 // const logger = require('morgan');
-
+//from master
 const app = express();
 // const isDev = process.env.NODE_ENV !== 'production';
 // view engine setup
