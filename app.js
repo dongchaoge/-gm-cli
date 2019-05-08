@@ -12,6 +12,7 @@ const compression = require('compression');
 const app = express();
 // const isDev = process.env.NODE_ENV !== 'production';
 // view engine setup
+//from rebase
 app.set('trust proxy', true);
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
