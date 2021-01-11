@@ -1,0 +1,77 @@
+:root{
+  /* 一 色彩部分 */
+  /* 主色调 */
+  --color-primary:#FF8800;
+  /* 背景主色调 */
+  --color-bg-primary:linear-gradient(135deg,rgba(254,208,94,1) 0%,rgba(255,190,42,1) 100%);
+  /* 主色调-light */
+  --color-primary-light:rgba(97, 96, 109, 1);
+  /* 主色调-dark */
+  --color-primary-dark:rgba(20, 19, 25, 1);
+  /* 辅助色-golden */
+  --color-golden:#2EBF6B;
+  /* 辅助色-info 提示信息 */
+  --color-info:rgba(45, 140, 240, 1);
+  /* 辅助色-success 成功信息 */
+  --color-success:#2EBF6B;
+  /* 辅助色-warning 提醒信息 */
+  --color-warning:rgba(255, 153, 0, 1);
+  /* 辅助色-error 警示信息 */
+  --color-error:#FF5A49;
+  /* 各状态标识底色 */
+  /* 状态-进行中 */
+  --color-state-bg-doing:rgba(230, 247, 255, 1);
+  /* 状态-成功/完成 */
+  --color-state-bg-success:rgba(237, 249, 232, 1);
+  /* 状态-提醒 */
+  --color-state-bg-retrial:rgba(255, 244, 229, 1);
+  /* 状态-失效/无效 */
+  --color-state-bg-invalid:rgba(245, 245, 245, 1);
+  /* 状态-异常警告 */
+  --color-state-bg-error:rgba(253, 235, 231, 1);
+  /* 状态-btn 主色调 */
+  --color-primary-btn: #D6A55E;
+  /* 边框色 */
+  --border-color:rgba(238,238,238,.5);
+  /* 边框色-激活 */
+  --border-color-active:var(--color-primary);
+
+  /* 分割线 */
+  --divider-color:rgba(232, 234, 236, 1);
+
+  /* 背景色-hover */
+  --hover-color-bg:rgba(248, 248, 249, 1);
+  /* 背景色-disabled */
+  --disabled-color-bg:#FAFAFA;
+
+  /* 文字色-标题 */
+  --text-color-headline:#333;
+  /* 文字色-小标 二级标 */
+  --text-color-secondary:#999;
+  /* 文字色-正文 */
+  --text-color-main:#333;
+  /* 文字色-二级文本 */
+  --text-color-minor:#666;
+  /* 文字色-表单-label */
+  --text-color-label:rgba(34, 34, 34, .85);
+  /* 文字色-输入框-placeholder */
+  --text-color-placeholder:#ddd;
+  /* 文字色-失效 */
+  --text-color-disabled:#ccc;
+  /* 文字色-深背景-白 */
+  --text-color-white:rgba(255, 255, 255, 1);
+
+  /* 文字色-状态-进行中  */
+  --text-color-state-blue:var(--color-info);
+  /* 文字色-状态-待确认 */
+  --text-color-state-orange:var(--color-warning);
+  /* 文字色-状态-完成 */
+  --text-color-state-green:var(--color-golden);
+  /* 文字色-状态-异常 */
+  --text-color-state-red:var(--color-error);
+  /* 文字色-状态-取消 失败 */
+  --text-color-state-grey:var(--text-color-secondary);
+
+  --font-family: PingFangSC-Regular,PingFang SC,微软雅黑,Microsoft YaHe;
+  --code-family: PingFangSC-Regular,PingFang SC,微软雅黑,Microsoft YaHe;
+}

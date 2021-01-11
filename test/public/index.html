@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html" ; charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <meta name="MobileOptimized" content="240">
+  <meta name="apple-touch-fullscreen" content="YES">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="referrer" content="never">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>金晨</title>
+  <!-- 使用CDN的CSS文件 -->
+  <% for (var i in htmlWebpackPlugin.options.cdn &&
+  htmlWebpackPlugin.options.cdn.css) { %>
+  <link href="<%= htmlWebpackPlugin.options.cdn.css[i] %>" rel="stylesheet" />
+  <% } %>
+</head>
+
+<body>
+  <noscript>
+    <strong>We're sorry but itrade-h5 doesn't work properly without JavaScript enabled. Please enable it to
+      continue.</strong>
+  </noscript>
+  <div id="app"></div>
+  <% for (var i in htmlWebpackPlugin.options.cdn &&
+  htmlWebpackPlugin.options.cdn.js) { %>
+  <script src="<%= htmlWebpackPlugin.options.cdn.js[i] %>"></script>
+  <% } %>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>
