@@ -2,6 +2,6 @@
 金晨脚手架
 
 ``` 
-yarn @goldmorning/cli -g
+npm i @goldmorning/cli -g
 gm create <ProjectName>
 ```
